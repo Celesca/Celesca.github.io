@@ -1,5 +1,3 @@
-AOS.init();
-
 function scrollToTarget(target_element){
     let element = document.getElementById(target_element);
     let headerOffset = 60;
@@ -11,5 +9,3 @@ function scrollToTarget(target_element){
          behavior: "smooth"
     });
 }
-
-window.addEventListener('load', AOS.refresh)
