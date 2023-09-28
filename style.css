@@ -43,39 +43,6 @@ body {
     border-radius: 20rem;
 }
 
-@media screen and (min-width: 770px) and (max-width: 1200px) {
-    .hero {
-        height: 35rem;
-    }
-}
-@media screen and (max-width: 769px) {
-    #mainpage {
-        padding-top : 5rem;
-        height: 135vh;
-    }
-    .imagezone {
-        flex-direction: column;
-    }
-    
-    .hero {
-        margin-top: 5rem;
-        height: 35rem;
-        width:auto;
-        background-size: cover;
-        object-fit: cover;
-    }
-    #sarasaspic {
-        width: 10rem !important;
-    }
-    #suthipic{
-        width: 9rem;
-    }
-    
-    #kmuttpic {
-        width: 10rem;
-    }
-}
-
 .nav-item {
     cursor:pointer;
 }
@@ -133,4 +100,46 @@ body {
 #brandname:hover {
     opacity: 0.9;
     transition: opacity ease-in 0.5s;
+}
+
+@media screen and (min-width: 770px) and (max-width: 1200px) {
+    .hero {
+        height: 35rem;
+    }
+}
+@media screen and (max-width: 769px) {
+    #mainpage {
+        height: 135vh;
+    }
+    .imagezone {
+        flex-direction: column;
+    }
+    
+    .hero {
+        margin-top: 5rem;
+        height: 35rem;
+        width:auto;
+        background-size: cover;
+        object-fit: cover;
+    }
+    #sarasaspic {
+        width: 10rem;
+    }
+    #suthipic{
+        width: 9rem;
+    }
+    
+    #kmuttpic {
+        width: 10rem;
+    }
+
+    .form-container {
+        display:block;
+        width:70%;
+        margin:0 auto;
+    }
+
+    .contactText {
+        font-size: 1.3rem;
+    }
 }
