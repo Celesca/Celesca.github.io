@@ -51,6 +51,7 @@ body {
 @media screen and (max-width: 769px) {
     #mainpage {
         padding-top : 5rem;
+        height: 135vh;
     }
     .imagezone {
         flex-direction: column;
@@ -62,6 +63,16 @@ body {
         width:auto;
         background-size: cover;
         object-fit: cover;
+    }
+    #sarasaspic {
+        width: 10rem !important;
+    }
+    #suthipic{
+        width: 9rem;
+    }
+    
+    #kmuttpic {
+        width: 10rem;
     }
 }
 
