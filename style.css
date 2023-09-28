@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+* {
+    font-family: 'Kanit', sans-serif;
+    box-sizing : border-box;
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+
+body {
+    overflow-y:hidden;
+}
+
+#mainpage {
+    height:100vh;
+    margin-top: 2rem;
+    background: rgb(228,244,241);
+    background: linear-gradient(90deg, rgba(228,244,241,1) 5%, rgba(201,231,200,1) 100%);
+}
+
+#About {
+    background: rgb(228,244,241);
+    background: linear-gradient(90deg, rgba(228,244,241,1) 5%, rgba(201,231,200,1) 100%);
+}
+
+#Education {
+    background: rgb(228,244,241);
+    background: linear-gradient(90deg, rgba(228,244,241,1) 5%, rgba(201,231,200,1) 100%);
+}
+
+.hero {
+    background-size: cover;
+    height: 38rem;
+    width: auto;
+    object-fit: cover;
+    border-radius: 10rem;
+}
+
+#Hero2 {
+    display: block;
+    width: 25%;
+    margin: 0 auto;
+    border-radius: 20rem;
+}
+
+@media screen and (min-width: 770px) and (max-width: 1200px) {
+    .hero {
+        height: 35rem;
+    }
+}
+@media screen and (max-width: 769px) {
+    #mainpage {
+        padding-top : 5rem;
+    }
+    .imagezone {
+        flex-direction: column;
+    }
+    
+    .hero {
+        margin-top: 5rem;
+        height: 35rem;
+        width:auto;
+        background-size: cover;
+        object-fit: cover;
+    }
+}
+
+.nav-item {
+    cursor:pointer;
+}
+
+.card {
+    cursor:pointer;
+}
+
+.card:hover {
+    opacity: 0.9;
+    transition: opacity linear 0.3s;
+}
+
+#pythonimage , #Cppimage {
+    width: 4rem;
+}
+
+#sarasaspic {
+    width: 12rem;
+}
+#suthipic{
+    width: 9rem;
+}
+
+#kmuttpic {
+    width: 10rem;
+}
+
+#mynav {
+    background: rgb(138,185,109);
+    background: linear-gradient(90deg, rgba(138,185,109,1) 0%, rgb(106, 165, 69) 100%);
+}
+
+.contactIcons {
+    color: #496e33;
+}
+
+.form-container {
+    display:block;
+    width:40%;
+    margin:0 auto;
+}
+
+.nav-item:hover {
+    background-color: #A6D393;
+    border-radius: 5rem;
+    transition: 1s ease;
+}
+
+#brandname {
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+#brandname:hover {
+    opacity: 0.9;
+    transition: opacity ease-in 0.5s;
+}
