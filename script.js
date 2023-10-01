@@ -9,3 +9,7 @@ function scrollToTarget(target_element){
          behavior: "smooth"
     });
 }
+
+function Submit() {
+    alert("Your message has been sented.")
+}
